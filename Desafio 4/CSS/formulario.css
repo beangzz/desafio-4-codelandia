@@ -1,0 +1,111 @@
+form {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.formulario__label {
+  color: var(--cor-preto-principal);
+  display: block;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 0.5rem;
+}
+
+.formulario__input {
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  color: var(--cor-preto-principal);
+  display: block;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  margin-bottom: 1rem;
+  padding: 1em;
+  width: calc(100% - 2em);
+}
+
+.formulario__input:focus {
+  outline: none;
+}
+
+.formulario__escolhas {
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 1em 0 2em 0;
+}
+
+.formulario__escolhas div {
+  align-items: center;
+  display: flex;
+}
+
+.formulario__escolhas div input {
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--cor-fundo);
+  border: 1px solid #E8E8E8;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 1em;
+  margin-right: 0.5rem; 
+  outline: none;
+  vertical-align: middle;
+  width: 1em;
+}
+
+.formulario__escolhas div input:checked {
+  background: #848484;
+}
+
+.formulario__escolhas div label{
+  border-radius: 50%;
+  color: var(--cor-preto-principal);
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.formulario__entrar {
+  background-color: var(--cor-verde-botao);
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 1em;
+  padding: 1em;
+  line-height: 19px;
+}
+
+.entrar__google {
+  background-color: var(--cor-preto-principal);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  padding: 1em;
+  justify-content: center;
+}
+
+.entrar__google img {
+  margin-right: 1em;
+}

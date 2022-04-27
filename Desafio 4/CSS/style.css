@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+:root {
+  --cor-fundo:#F7FAFC;
+  --cor-link:#2B6CB0;
+  --cor-preto-principal:#1A202C;
+  --cor-verde-botao:#04C35C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "imagem" "login";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100vh;
+}
+
+.imagem {
+  align-items: center;
+  background-color: var(--cor-fundo);
+  display: flex;
+  grid-area: "imagem";
+  justify-content: center;
+}
+
+.informacoes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-area: "login";
+  justify-content: center;
+}
+
+.informacoes__formulario {
+  width: 50%;
+}
+
+.formulario__texto {
+  color: var(--cor-preto-principal);
+  margin-bottom: 2em;
+}
+
+.formulario__texto p {
+  font-family: 'Merriweather';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 1em;
+}
+
+.formulario__texto h2 {
+  font-family: 'Merriweather';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+
+
+.informacoes__conta {
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 10%;
+
+}
+
+
+.link {
+  color: var(--cor-link);
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+
+  main {
+    display: block;
+  }
+
+  .imagem {
+    display: none;
+  }
+
+  .informacoes {
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .informacoes__formulario {
+    width: 90vw;
+  }
+
+}  
