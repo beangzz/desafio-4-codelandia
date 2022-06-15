@@ -27,7 +27,7 @@ Você pode conferir o lyout do projeto através do link abaixo:
 
 ## :globe_with_meridians: Deploy
 
-Deploy feito através do Versel. Confira <a href="desafio-4-codelandia-beige.vercel.app/">neste link</a>.
+Deploy feito através do Versel. Confira <a href="https://desafio-4-codelandia-cqvqio8x1-beangzz.vercel.app//">neste link</a>.
 
 
 ---
